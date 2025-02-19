@@ -5,13 +5,7 @@
     },
     "problem_type": "AssemblyLineBalancing",
     "description": "Minimize the number of stations in an assembly line by assigning tasks to stations such that the cycle time limit is not exceeded and precedence constraints are satisfied. The instance data is based on a SALBP formulation.",
-    "keywords": [
-      "assembly line",
-      "balancing",
-      "scheduling",
-      "optimization",
-      "SALBP"
-    ],
+    "keywords": ["assembly line", "balancing", "scheduling", "combinatorial", "SALBP", "optimization"],
     "data_format": {
       "instance_file": {
         "format": "The instance file begins with 3 header tokens to skip, then the number of tasks, followed by 2 tokens to skip, the cycle time limit, 5 tokens to skip, the processing times (each given as a task number and its processing time), 2 tokens to skip, and finally the precedence relations in the form 'pred,succ' until end-of-file."
